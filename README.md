@@ -9,4 +9,6 @@
  - HTML
  - JAVASCRIPT
 
+### Você pode conferir o resultado  acessando o link (You can check the result by accessing the link) : https://kaahsilva.github.io/projeto-mortal-kombat/
+
 # Resultado final (Final result)![mk-foto](https://user-images.githubusercontent.com/74149487/168692387-ccb6266e-726f-40a1-adff-6e499ebb6a54.png)
