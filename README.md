@@ -12,7 +12,7 @@
 
 <h2 style="font-weight: 900; margin: 1.2rem 0.45rem">
    Projeto feito no evento da Mapa Dev Week <br>
-   <span style="font-size: 1.2rem;">
+   <span style="font-size: 1rem;">
    (Project made at Mapa Dev Week event)
    </span>
 </h2>
@@ -28,7 +28,7 @@ I had the freedom to change the layout to characters of my preference, in the ca
 
 <h2 style="font-weight: 900; margin: 1.2rem 0.45rem">
    Linguagens utilizadas <br>
-   <span style="font-size: 1.2rem;">
+   <span style="font-size: 1rem;">
    (Languages used)
    </span>
 </h1>
@@ -41,7 +41,7 @@ I had the freedom to change the layout to characters of my preference, in the ca
 
 <h2 style="font-weight: 900; margin: 1.2rem 0.45rem">
    Você pode conferir o resultado acessando o link:  <br>
-   <span style="font-size: 1.2rem;">
+   <span style="font-size: 1rem;">
    (You can check the result by accessing the link)
    </span>
 </h2>
@@ -52,7 +52,7 @@ I had the freedom to change the layout to characters of my preference, in the ca
 
 <h2 style="font-weight: 900; margin: 1.2rem 0.45rem">
    Resultado final  <br>
-   <span style="font-size: 1.2rem;">
+   <span style="font-size: 1rem;">
    (Final result)
    </span>
 </h2>
