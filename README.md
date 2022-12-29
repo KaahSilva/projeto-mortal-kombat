@@ -1,12 +1,10 @@
-<center>
-   <img style="border-radius: 5px; margin-bottom: 12px;"  src=".github/logo.png" width="300px" height="200px" />  
-</center>
+<p align="center">
+<img style="margin-bottom: 2px;"  src=".github/logo.png" width="300px" height="200px" />  
+</p>
 
-<h1 align="center"
-   style="font-family: 'Roboto', cursive;"
->
+<h1 align="center" style="font-family: 'Roboto', cursive;">
    <img src=".github/scorpion.gif" width="60px" />
-    <span style="color: #fe0231">Projeto</span> - Mortal Kombat
+   Projeto - Mortal Kombat
    <img src=".github/subzero.gif" width="60px" />
 </h1>
 
@@ -61,12 +59,11 @@ I had the freedom to change the layout to characters of my preference, in the ca
 
 <br>
 
-<center>
-   <address>
-
-      ~ Made in 💜 by @kaahSilva  
-<br>
-<center><img src=".github/toasty-mortal-kombat.gif" style="height: 100px" /></center>
-
-   </address>
-</center>
+<address>
+   <p align="center">
+      ~ Made in 💜 by <strong>@kaahSilva</strong> 
+      <br>
+      <br>
+      <img src=".github/toasty-mortal-kombat.gif" style="height: 100px" />
+   </p>
+</address>
