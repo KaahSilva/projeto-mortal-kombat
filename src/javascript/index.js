@@ -1,37 +1,22 @@
-const personagens = document.querySelectorAll('.personagem')
+const personagens = document.querySelectorAll(".personagem");
 
-personagens.forEach((personagem) => { 
+personagens.forEach((personagem) => {
+  personagem.addEventListener("mouseenter", () => {
+    const idSelecionado = personagem.attributes.id.value;
 
+    if (idSelecionado === "scorpion") {
+      return;
+    }
 
-    personagem.addEventListener('mouseenter' , () =>{
+    const imagemJogador1 = document.getElementById("personagem-jogador-1");
+    const nomeJogador1 = document.getElementById("nome-jogador-1");
+    const nomeSelecionado = personagem.getAttribute("data-name");
+    const personagemSelecionado = document.querySelector(".selecionado");
 
-        const idSelecionado = personagem.attributes.id.value;
+    personagemSelecionado.classList.remove("selecionado");
+    personagem.classList.add("selecionado");
 
-        if (idSelecionado === 'scorpion') {
-            return ;
-        }
-
-        const personagemSelecionado = document.querySelector('.selecionado')
-        personagemSelecionado.classList.remove('selecionado')
-
-
-        personagem.classList.add('selecionado')
-        
-
-      
-
-        const imagemJogador1 = document.getElementById('personagem-jogador-1');
-        imagemJogador1.src = `./src/imagens/${idSelecionado}.png`;
-
-
-       const nomeJogador1 = document.getElementById('nome-jogador-1');
-
-       
-
-       const nomeSelecionado = personagem.getAttribute('data-name');
-
-       nomeJogador1.innerHTML = nomeSelecionado;
-    });
-
-
+    nomeJogador1.innerHTML = nomeSelecionado;
+    imagemJogador1.src = `./src/imagens/${idSelecionado}.png`;
+  });
 });
